@@ -14,8 +14,11 @@ for  (int i = 0; i < ileLiczb; i++)
 Console.Clear();
 Console.WriteLine("Tablica przed sortowaniem: ");
 sortowanie.WypiszTablice();
-Console.WriteLine("\nTablica po posortowaniu: ");
+Console.WriteLine("\nTablica po posortowaniu malejąco: ");
 sortowanie.SortujMalejaco();
 sortowanie.WypiszTablice();
 
+Console.WriteLine("\nTablica po posortowaniu rosnąco: ");
+sortowanie.SortujRosnaco();
+sortowanie.WypiszTablice();
 //Console.WriteLine($"Pozycja max: {sortowanie.ZnajdzMax()}");
